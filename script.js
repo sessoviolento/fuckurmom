@@ -16,10 +16,10 @@ overlay.addEventListener('click', () => {
 playBtn.addEventListener('click', () => {
   if(audio.paused){
     audio.play();
-    playBtn.textContent = '⏸';
+    playBtn.textContent = 'pause';
   } else {
     audio.pause();
-    playBtn.textContent = '▶';
+    playBtn.textContent = 'play';
   }
 });
 
