@@ -134,10 +134,10 @@ body {
 .discordbio { text-shadow:0 0 8px #fff; margin-bottom:15px; text-align:center; }
 
 /* Music player */
-.music-player { width:100%; background:rgba(255,255,255,0.05); backdrop-filter:blur(8px); border:1px solid rgba(255,255,255,0.2); border-radius:25px; padding:12px; display:flex; flex-direction:column; align-items:center; box-shadow:0 0 20px rgba(255,255,255,0.1); }
+.music-player { width:100%; background:rgba(255,255,255,0.05); backdrop-filter:blur(8px); border:1px solid rgba(255,255,255,0.2); border-radius:25px; padding:15px; display:flex; flex-direction:column; align-items:center; box-shadow:0 0 20px rgba(255,255,255,0.1); }
 #music-title { font-weight:600; text-align:center; text-shadow:0 0 8px #ffffff38; margin-bottom:2px; }
 .controls { width:100%; display:flex; align-items:center; gap:10px; }
-#play-btn { background:rgb(255, 255, 255); border:none; border-radius:100%; width:20px; height:20px; color:#000000; cursor:pointer; font-size:10px; box-shadow:0 0 10px rgba(255,255,255,0.3); }
+#play-btn { background:rgb(255, 255, 255);  border:1px solid rgba(255, 255, 255, 0.041); border-radius:15%;width:50px; height:20px; color:#000000; cursor:pointer; font-size:10px; box-shadow:0 0 10px rgba(255, 255, 255, 0.527);font-weight:600; text-align:center; text-shadow:0 0 8px hsla(0, 0%, 100%, 0.22); margin-bottom:2px; }
 #play-btn:hover { transform:scale(1.1); }
 .progress-container { flex:1; height:6px; background:rgba(255,255,255,0.2); border-radius:3px; cursor:pointer; overflow:hidden; }
 .progress { width:0%; height:100%; background:#00fd2aa6; border-radius:3px; transition:width 0.2s linear; }
